@@ -1,11 +1,11 @@
 {
   "family": "web-application-task",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::<AKIAZQ3DOLZBGKDODSFO>:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::<your-account-id>:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "web-application",
-      "image": "<shivamshukla9979>/web-application:latest",
+      "image": "<your-dockerhub-username>/web-application:latest",
       "essential": true,
       "portMappings": [
         {
