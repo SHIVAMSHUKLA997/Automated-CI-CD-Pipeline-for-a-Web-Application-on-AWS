@@ -1,14 +1,20 @@
 {
-  "name": "my-nodejs-app",
+  "name": "web-application",
   "version": "1.0.0",
-  "description": "A simple Node.js application",
-  "main": "app.js",
+  "description": "A simple web application",
+  "main": "app.js", 
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js", 
+    "test": "echo \"No tests yet\""
   },
+  "keywords": [
+    "web",
+    "application",
+    "express"
+  ],
   "author": "Shivam Shukla",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.19.2"
   }
 }
